@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    background-image: url(./img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin: 0 auto;
+    background: #D8E8F8;
+    width: 430px;
+    height: 910px;
+    
+}
+.back1 img{
+    height: 100%;
+    width: 430px;
+    
+}
+.back2{
+    display: flex;
+    background-color: #D8E8F8;
+    
+    margin-top: -90px;
+    
+}
+.back2 img {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100px;
+    border: 8px solid #D8E8F8;; /* ใส่ขอบสีแดงภายนอกรูป */
+    box-sizing: border-box; /* เพื่อให้ขอบไม่เพิ่มขนาดรวมกับรูป */
+}
+.content{
+    width: 376px;
+    height: 630px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    background-color: #F0F8FF;
+    border-radius: 26px;
+    text-align: center;
+}
+.content h2{
+    color: #295FC4;
+    font-family: Kanit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+.content hr{
+    width: 346px;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background: #D8E8F8;
+}
+.content h4{
+    margin-left: 7%;
+    float: left;
+    color: #A2ACBE;
+    font-family: Kanit;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.ig{
+    display: flex;
+    margin-left: 7%;
+    margin-bottom: 10px;
+    
+}
+.ig img{
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.ig p{
+    color: #ADB7C9;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 10px;
+}
+.content .text {
+    margin-left: 7%;
+    color: #ADB7C9;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+}
+.skill{
+    
+}
+.skill .skill_1 {
+    margin-left: 7%;
+    display: flex;
+    width: 300px;
+    align-items: center;
+    width: 350px;
+    margin-bottom: 15px;
+    
+}
+
+.skill .skill_1 img{
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    
+    
+}
+.skill_2{
+    display: flex;
+    width: 250px;
+    
+}
+.skill .skill_1 p{
+    color: #ADB7C9;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+footer p{
+    font-size: 13px;
+    font-weight: normal;
+}
